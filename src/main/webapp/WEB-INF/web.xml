@@ -1,0 +1,12 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<web-app >
+    <servlet>
+        <servlet-name>TriangleServlet</servlet-name>
+        <servlet-class>TriangleServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>TriangleServlet</servlet-name>
+        <url-pattern>/triangle</url-pattern>
+    </servlet-mapping>
+</web-app>
