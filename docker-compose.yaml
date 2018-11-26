@@ -1,0 +1,7 @@
+version: '2'
+
+services:
+  tomcat:
+    image: triangleweb:latest
+    ports:
+      - "8000:8080"
